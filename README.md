@@ -1,5 +1,10 @@
 # DoodleRecognition
 
+## Model
+目前借鉴别的组的Kernel，采用 *ResNet18* + *CyclicLR* 训练我们的模型 日后可能会加入 *RNN* 提升模型的准确度
+如果DeepLearning的知识点需要恶补，参见 [DeepLearningAI](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)中 `01` `02` `04` `05`章节
+如果Pytorch不熟悉，参见 [Pytorch tutorials](https://pytorch.org/tutorials/) 一天时间速成 Pytorch
+
 ------
 
 ## 环境
@@ -26,6 +31,8 @@ matplotlib.use('Agg')
 如果要用远程的服务器绘制图像，需要用XForward11 参见[在pycharm中使用远程的matplotlib](https://stackoverflow.com/questions/30813370/how-can-i-enable-x-11-forwarding-in-pycharm-when-connecting-to-vagrant-or-a-rem/32945380#32945380)
 
 如果只是在本地的服务器绘制图像，将 *matplotlib.use('Agg')* 注释掉即可 系统默认用 *TkAgg*
+
+----
 
 ## Results
 ```
@@ -172,12 +179,16 @@ index: 4  running_loss 0.1950  running_corrects 0.9469
 index: 5  running_loss 0.2064  running_corrects 0.9427
 ```
 
+----
+
 ## 资料
 1. [QuickDraw DataSet](https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset)
 2. [Pytorch Tutorial -- Train a Image Classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)
 3. [FineTuning TorchVision Models](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html)
 4. [ResNet, CLR, Pytorch](https://www.kaggle.com/prajjwal/resnet-clr-pytorch)
 5. [CNN LSTM Model](https://www.kaggle.com/kmader/quickdraw-baseline-lstm-reading-and-submission)
+
+----
 
 ## TO DO LIST
 1. 数据量实在太大了 350个不同的种类 每个种类十几万条数据
