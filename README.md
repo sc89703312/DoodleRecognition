@@ -10,7 +10,7 @@
 ## Data
 [QuickDraw DataSet](https://www.kaggle.com/c/quickdraw-doodle-recognition/data)  
 下载 `train_simplified` 文件(大约7GB)  
-里面有350个 `.csv` 文件，每个文件对应一种涂鸦类型 
+里面有350个 `.csv` 文件，每个文件对应一种涂鸦类型  
 数据预处理和可视化参见 [Getting Started: Viewing Quick, Draw! Doodles, etc
 ](https://www.kaggle.com/inversion/getting-started-viewing-quick-draw-doodles-etc)
 
