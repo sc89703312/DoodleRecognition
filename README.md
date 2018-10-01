@@ -173,11 +173,11 @@ index: 5  running_loss 0.2064  running_corrects 0.9427
 ```
 
 ## 资料
-[QuickDraw DataSet](https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset)
-[Pytorch Tutorial -- Train a Image Classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)
-[FineTuning TorchVision Models](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html)
-[ResNet, CLR, Pytorch](https://www.kaggle.com/prajjwal/resnet-clr-pytorch)
-[CNN LSTM Model](https://www.kaggle.com/kmader/quickdraw-baseline-lstm-reading-and-submission)
+1. [QuickDraw DataSet](https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset)
+2. [Pytorch Tutorial -- Train a Image Classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)
+3. [FineTuning TorchVision Models](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html)
+4. [ResNet, CLR, Pytorch](https://www.kaggle.com/prajjwal/resnet-clr-pytorch)
+5. [CNN LSTM Model](https://www.kaggle.com/kmader/quickdraw-baseline-lstm-reading-and-submission)
 
 ## TO DO LIST
 1. 数据量实在太大了 350个不同的种类 每个种类十几万条数据
