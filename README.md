@@ -1,8 +1,8 @@
 # DoodleRecognition
 
 ## Model
-目前借鉴别的组的Kernel，采用 *ResNet18* + *CyclicLR* 训练我们的模型 日后可能会加入 *RNN* 提升模型的准确度
-如果DeepLearning的知识点需要恶补，参见 [DeepLearningAI](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)中 `01` `02` `04` `05`章节
+目前借鉴别的组的Kernel，采用 *ResNet18* + *CyclicLR* 训练我们的模型 日后可能会加入 *RNN* 提升模型的准确度  
+如果DeepLearning的知识点需要恶补，参见 [DeepLearningAI](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)中 `01` `02` `04` `05`章节  
 如果Pytorch不熟悉，参见 [Pytorch tutorials](https://pytorch.org/tutorials/) 一天时间速成 Pytorch
 
 ------
