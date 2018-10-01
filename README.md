@@ -3,7 +3,7 @@
 ------
 
 ## 环境
-1. conda
+1. conda(pandas最好用0.23.4 其他版本读取CSV数据老是出错)
 ```
 torchvision               0.2.1                    
 scikit-learn              0.19.1         
@@ -25,7 +25,7 @@ matplotlib.use('Agg')
 
 如果要用远程的服务器绘制图像，需要用XForward11 参见[在pycharm中使用远程的matplotlib](https://stackoverflow.com/questions/30813370/how-can-i-enable-x-11-forwarding-in-pycharm-when-connecting-to-vagrant-or-a-rem/32945380#32945380)
 
-如果只是在本地的服务器绘制图像，将 *matplotlib.use('Agg')* 注释掉即可
+如果只是在本地的服务器绘制图像，将 *matplotlib.use('Agg')* 注释掉即可 系统默认用 *TkAgg*
 
 ## Results
 ```
